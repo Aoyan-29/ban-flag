@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width:100%;
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width:1000px;
+	height: 600px;
+	background-color: green;
+	margin-top: 50px;
+	margin-left: 200px;
+	position: relative;
+
+}
+.red{
+	width:350px;
+	height: 350px;
+	border-radius: 100%;
+	background-color: red;
+	position: absolute;
+	transform: translate(330px, 120px);
+}
+.fb-share{
+	position: fixed;
+	top: 50px;
+	right: -100px;
+	width: 150px;
+	transition: 1s ease;
+	cursor: pointer;
+}
+.fb-share:hover{
+	right:2px;
+}
+.wp-share{
+	position: fixed;
+	top: 70px;
+	right: -100px;
+	width: 150px;
+	transition: 1s ease;
+	cursor: pointer;
+}
+.wp-share:hover{
+	right:2px;
+}
+.li-share{
+	position: fixed;
+	top: 180px;
+	right: -100px;
+	width: 150px;
+	transition: 1s ease;
+	cursor: pointer;
+}
+.li-share:hover{
+	right:2px;
+}
+
+
